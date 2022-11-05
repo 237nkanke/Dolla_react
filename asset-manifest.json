@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Dolla_react/static/css/main.ea2dfd6c.css",
-    "main.js": "/Dolla_react/static/js/main.76497375.js",
+    "main.js": "/Dolla_react/static/js/main.04a32096.js",
+    "static/media/video.mp4": "/Dolla_react/static/media/video.52e8933b6c462b590514.mp4",
     "index.html": "/Dolla_react/index.html",
     "main.ea2dfd6c.css.map": "/Dolla_react/static/css/main.ea2dfd6c.css.map",
-    "main.76497375.js.map": "/Dolla_react/static/js/main.76497375.js.map"
+    "main.04a32096.js.map": "/Dolla_react/static/js/main.04a32096.js.map"
   },
   "entrypoints": [
     "static/css/main.ea2dfd6c.css",
-    "static/js/main.76497375.js"
+    "static/js/main.04a32096.js"
   ]
 }
