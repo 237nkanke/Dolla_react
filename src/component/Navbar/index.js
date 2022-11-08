@@ -8,7 +8,7 @@ const Navbar = ({toggle}) => {
     <Nav>
       <NavbarContainer>
 
-        <NavLogo to="/">NCODING</NavLogo>
+        <NavLogo to="/">N-CODING</NavLogo>
         <MobileIcons onClick={toggle}>
           <FaBars />
         </MobileIcons>
