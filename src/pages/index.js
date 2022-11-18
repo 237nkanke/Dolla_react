@@ -5,7 +5,8 @@ import Sidebar from '../component/Sidebar/index';
 import HeroSection from '../component/HeroSection/index';
 import InfoSection from '../component/infoSection/index';
 import { Home2, Home3, Homebject } from '../component/infoSection/Dater';
-
+import Services from '../component/services/index';
+import Footer from '../footer/footer';
 const Home = () => {
 const [isOpen,setIsOpen] = useState(false); 
 
@@ -20,7 +21,9 @@ const toggle = () => {
         <HeroSection />
         <InfoSection {...Homebject}/>
         <InfoSection {...Home2}/>
+        <Services />
         <InfoSection {...Home3}/>
+      <Footer />
     </>
   )
 }

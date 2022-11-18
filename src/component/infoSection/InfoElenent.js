@@ -5,11 +5,11 @@ import styled from 'styled-components'
  export const InfoContainer = styled.div`
  color: #fff;
    background: ${({lightBg}) => (lightBg ? '#f9f9f9' :'#010606')};
-  @media screen and (max-width:760px)
-  {
-     height:125vh;
-    padding: 100px 0;
-  }
+  // @media screen and (max-width:760px)
+  // {
+  //    height:125vh;
+  //   padding: 100px 0;
+  // }
  `
  export const InfoWarper = styled.div`
  display: grid;
@@ -30,7 +30,7 @@ align-items: center;
 grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 @media screen and (max-width:760px)
   {
-    height: 650px;
+    // height: 650px;
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
   }
  `
@@ -50,10 +50,10 @@ grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`
  `max-width: 540px;
  padding-top: 0;
  padding-bottom: 60px;
- @media screen and (max-width:760px)
-  {
-    padding-bottom: 40px;
-  }
+//  @media screen and (max-width:760px)
+//   {
+//     padding-bottom: 40px;
+//   }
  `
  export const TopLine = styled.p
  `color: #01bf71;

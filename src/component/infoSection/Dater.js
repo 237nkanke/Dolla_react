@@ -4,8 +4,8 @@ export const Homebject = {
     LightText:true,
     LightTextDesc:true,
     topLine:'Premiun Site',
-    headLine:'Unlimiter Codes In All Domain for zero fees',
-    description:'Get access to our exclusive app that permit you to learn and upgreate your level in coding without getting charged any fees',
+    headLine:'Unlimited Codes In All Domain for zero fees',
+    description:'Get access to our exclusive app that permit you to learn and upgread your level in coding without getting charged any fees',
     buttonLable:'Get Started',
     imgStart: false,
     img: require('../../images/1.png'),
@@ -15,7 +15,7 @@ export const Homebject = {
     darkText:false
 };
 export const Home2 = {
-    id: 'discover',
+    id: 'discovery',
     lightBg:true,
     LightText:false,
     LightTextDesc:false,
@@ -31,18 +31,18 @@ export const Home2 = {
     darkText:true
 };
 export const Home3 = {
-    id: 'about',
-    lightBg:false,
-    LightText:true,
-    LightTextDesc:true,
-    topLine:'Serivices',
-    headLine:'Unlimiter Codes In All Domain for zero fees',
-    description:'Get access to our exclusive app that permit you to learn and upgreate your level in coding without getting charged any fees',
+    id: 'sign_up',
+    lightBg:true,
+    LightText:false,
+    LightTextDesc:false,
+    topLine:'sign_up',
+    headLine:'Unlimited Codes In All Domain for zero fees',
+    description:'Get access to our exclusive app that permit you to learn and upgread your level in coding without getting charged any fees',
     buttonLable:'Get Started',
-    imgStart: false,
+    imgStart: true,
     img: require('../../images/3.png'),
     alt:'service',
-    dark:true,
-    primary:true,
-    darkText:false
+    dark:false,
+    primary:false,
+    darkText:true
 };
