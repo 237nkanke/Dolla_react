@@ -1,13 +1,13 @@
 :root {
     --bg: #dcdde1;     
     --color-icon: #535c68;  
-    --social-icon1: #e4405f;
+    --social-icon1: #f83e57;
     --social-icon2: #3b5999;
     --social-icon3: #e4405f;
     --social-icon4: #cd201f;
     --social-icon5: #0077B5;  
   }
-  section {
+  /* section {
     display: flex;
     
     align-items: center;
@@ -15,7 +15,7 @@
     background: var(--bg);
     z-index: -10;
     height: 13vh;
-  }
+  } */
 .icon-list {
     max-width: 50rem;
     /* padding: 0 1.5rem; */
@@ -43,6 +43,9 @@
     z-index: 1;
     /* border: 1px solid black; */
     /* margin: auto; */
+  }
+  .icon-link{
+    color:#fff;
   }
   .icon-link:hover {
     color: #fff;
@@ -82,32 +85,25 @@
     background: var(--social-icon4); 
   }
   .icon-item:nth-child(5) a:hover:before { 
+    background: var(--social-icon2); 
+  }
+  .icon-item:nth-child(6) a:hover:before { 
     background: var(--social-icon5); 
   }
   
   @media screen and (max-width:760px)
   {
-    section {
-      display: flex;
-      
-      align-items: center;
-      justify-content: center;  
-      background: var(--bg);
-      z-index: -10;
-      height: 14.5vh;
-    }
+   
   .icon-list {
       max-width: 50rem;
-      /* padding: 0 1.5rem; */
       position: relative;
       height: 10vh;
       display: flex;
-      /* justify-content: space-between; */
+      margin-left: -65px;
     }
-    
     .icon-item {
-      /* border: 1px solid black; */
       margin: auto;
+      
       list-style: none;
     }
     .icon-link {  
@@ -120,8 +116,9 @@
       transition: .5s linear;
       position: relative;
       z-index: 1;
-      /* border: 1px solid black; */
-      /* margin: auto; */
+    }
+    .icon-link{
+      color:#fff;
     }
     .icon-link:hover {
       color: #fff;
