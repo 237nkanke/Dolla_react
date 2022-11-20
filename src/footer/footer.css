@@ -17,11 +17,11 @@
     height: 13vh;
   } */
 .icon-list {
-    max-width: 50rem;
+    max-width: 45rem;
     /* padding: 0 1.5rem; */
     position: relative;
     height: 10vh;
-
+    margin-left: -90px;
     display: flex;
     /* justify-content: space-between; */
   }
@@ -29,6 +29,7 @@
   .icon-item {
     /* border: 1px solid black; */
     margin: auto;
+    margin-left: -10px;
     list-style: none;
   }
   .icon-link {  
@@ -103,7 +104,7 @@
     }
     .icon-item {
       margin: auto;
-      
+      margin-left: -4px;
       list-style: none;
     }
     .icon-link {  
