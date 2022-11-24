@@ -1,11 +1,12 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
+import { useNavigate } from 'react-router-dom'
 import { NavLogo } from "./signinElement";
 import "./signin.css";
 const Signin = () => {
   const nameRef = useRef();
   const emailRef = useRef();
   const countryRef = useRef();
-
+  const history =   useNavigate();
   const Submit = (event) => {
     event.preventDefault();
     // the preventdefault method will prevent the default reaction to occure and can do your own
@@ -18,18 +19,22 @@ const Signin = () => {
       email: enteredemail,
       country: enteredcountry,
     };
-console.log("go")
+    console.log("go");
     fetch(
-      "https://react-started-990e1-default-rtdb.firebaseio.com/meetups.json",
+      "https://ncoding-f83b2-default-rtdb.firebaseio.com/signin.json",
       {
-        method: 'POST',
+        method: "POST",
         body: JSON.stringify(meetup),
         headers: {
-            'Content-Type': ';application/json'
-        }
+          "Content-Type": "application/json",
+        },
       }
-    );
-    
+    ).then(() => {
+      history('/Dolla_react', {replace: true}); 
+      // history.push will help us go to the next page but we could still use the back button to come back
+      // history.replace will help us go to the next page but we could not come back to the prviose page
+  });
+
   };
   return (
     <div className="sign">
