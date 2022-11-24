@@ -46,7 +46,7 @@ const Signin = () => {
         <form onSubmit={Submit}>
           <div className="input_field">
             <input type="text" id="name" name="name" required ref={nameRef} />
-            <span></span>
+            {/* <span></span> */}
             <label htmlFor="name">name</label>
           </div>
           <div className="input_field">
@@ -57,7 +57,7 @@ const Signin = () => {
               required
               ref={emailRef}
             />
-            <span></span>
+            {/* <span></span> */}
             <label htmlFor="email">Email</label>
           </div>
           <div className="input_field">
@@ -68,7 +68,7 @@ const Signin = () => {
               required
               ref={countryRef}
             />
-            <span></span>
+            {/* <span></span> */}
             <label htmlFor="country">country</label>
           </div>
           <button>Submit</button>
