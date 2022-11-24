@@ -1,14 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {FaBars} from 'react-icons/fa'
 import {Nav, NavbarContainer , NavLogo, MobileIcons ,NavMenu, NavItem ,NavLinks , NavButton, NavButtonLink} from './NavbarElement'
 const Navbar = ({toggle}) => {
+  const [scrollNav,setScrollNav] = useState(false);
+
+  
   return (
     <>
     
     <Nav>
       <NavbarContainer>
 
-        <NavLogo to="/">N-CODING</NavLogo>
+        <NavLogo to="/Dolla_react">N-CODING</NavLogo>
         <MobileIcons onClick={toggle}>
           <FaBars />
         </MobileIcons>

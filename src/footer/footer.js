@@ -73,24 +73,24 @@ const Footer = () => {
               <SocialIcons>
                 <ul className="icon-list">
                   <li className="icon-item">
-                    <a href="nkanke/index.html" className="icon-link">
+                    <a href="https://www.facebook.com/ulrich.nkanke" className="icon-link">
                       <i className="fab fa-instagram"></i>
                     </a>
                   </li>
                   <li className="icon-item">
-                    <a href="nkanke/index.html" className="icon-link">
+                    <a href="https://www.facebook.com/ulrich.nkanke" className="icon-link">
                       <i className="fab fa-facebook-f"></i>
                     </a>
                   </li>
 
                   <div className="yu"></div>
                   <li className="icon-item">
-                    <a href="nkanke/index.html" className="icon-link">
+                    <a href="https://www.youtube.com/@nkanke237" className="icon-link">
                       <i className="fab fa-youtube"></i>
                     </a>
                   </li>
                   <li className="icon-item">
-                    <a href="nkanke/index.html" className="icon-link">
+                    <a href="https://www.linkedin.com/in/yan-ulrich-nkanke-b78251239" className="icon-link">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
                   </li>
