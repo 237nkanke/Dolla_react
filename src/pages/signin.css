@@ -136,8 +136,8 @@ button:hover {
     
     .lk{
         width: 100%;
-        margin-top: -50px;
-        margin-bottom: 80px;
+        margin-top: -70px;
+        margin-bottom: 85px;
       }
       
       .sign{
@@ -152,7 +152,7 @@ button:hover {
         display: flex;
         flex-direction: column;
         width: 325px;
-        height: 450px;
+        height: 460px;
         background: #fff;
         border-radius: 5px;
         /* margin-top: -8px; */
@@ -163,7 +163,7 @@ button:hover {
         text-align: center;
         font-weight: bold;
         /* font-size: 30px; */
-        padding: 17px 0;
+        padding: 18px 0;
         color: gray;
         border-bottom: 1px solid #000;
       }
