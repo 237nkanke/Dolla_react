@@ -136,7 +136,7 @@ button:hover {
     
     .lk{
         width: 100%;
-        /* margin-top: -3px; */
+        margin-bottom: 50px;
       }
       
       .sign{
@@ -144,7 +144,7 @@ button:hover {
           height: 100vh;
           display: flex;
           flex-direction: column;
-          justify-content: space-evenly;
+          justify-content: center;
           align-items: center;
       }
       .login_card {
@@ -162,23 +162,23 @@ button:hover {
         text-align: center;
         font-weight: bold;
         /* font-size: 30px; */
-        padding: 11px 0;
+        padding: 15px 0;
         color: gray;
         border-bottom: 1px solid #000;
       }
       .login_card form {
-        padding: 2px 40px;
+        padding: 6px 36px;
         box-sizing: border-box;
       }
       form .input_field {
         position: relative;
-        margin: 27px 0;
+        margin: 28px 0;
         border-bottom: 2px solid lightgray;
       }
       .input_field input {
         width: 100%;
         padding: 0 5px;
-        height: 42px;
+        height: 45px;
         font-size: 17px;
         color: rgb(17, 14, 14);
         border: none;
@@ -217,7 +217,7 @@ button:hover {
       
       button {
         width: 100%;
-        height: 50px;
+        height: 51px;
         border: none;
         background: #01bf71;
         border-radius: 25px;
